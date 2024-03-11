@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.btn {
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #61dafb;
+  color: #282c34;
+  font-weight: 700;
+}
+.btn:hover {
+  background-color: #282c34;
+  color: #61dafb;
+  animation-name: App-logo-spin;
+  animation-duration: 3s;
+  border: 1px solid #61dafb;
+}
+
+.flower {
+  margin-top: 2rem;
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.img-container {
+  display: flex;
+  gap: 2rem;
+}
